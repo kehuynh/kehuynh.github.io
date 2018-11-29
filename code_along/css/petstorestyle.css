@@ -1,0 +1,75 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Roboto');
+
+body {
+  background-color:   #b3e0ff;
+color: black;
+border-bottom-width: medium;
+}
+
+h1 {
+  color:  #004d80;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  font-size: 60px;
+
+}
+
+p1 {
+font-size: 30px;
+font-style: italic;
+font-family: fantasy;
+text-decoration: underline;
+}
+
+h2 {
+  font-size: 19px;
+
+}
+
+p2 {
+  color: green;
+  font-style: oblique;
+  font-family: sans-serif;
+  text-decoration: overline;
+}
+
+.fuzzy {
+  color:pink;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.birds {
+  color: blue;
+  font-style: italic;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#firstList {
+  background-color: lime;
+}
+
+li {
+  display: inline-block;
+  margin: 30px;
+}
+
+li:hover {
+  background-color: black;
+  
+}
